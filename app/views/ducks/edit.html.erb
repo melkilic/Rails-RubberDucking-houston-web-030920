@@ -1,0 +1,7 @@
+<form method="POST" action="/ducks/<%=@duck.id%>">
+<input id="hidden" type="hidden" name="_method" value="PATCH">
+Name:<input type="text" name="name" value="<%=@duck.name%>"> 
+Description:<input type="text" name="description" value="<%=@duck.description%>">
+Student Id:<input type="text" name="student_id" value="<%=@duck.student_id%>">
+<input type="submit">
+</form>
